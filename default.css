@@ -1,0 +1,37 @@
+body {
+    font-family: 'Courier Prime', monospace;
+}
+
+#header {
+    background-image: url("imgs/header3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 500px;
+}
+
+@media (min-width: 1920px) {
+    #header {
+        background-size: 2560px 500px;
+    }
+
+    body {
+        font-size: 130%;
+    }
+}
+
+#body {
+    background-color: #f2f2f2;
+}
+
+#footercolor {
+    color: black;
+}
+
+.jumbotron .btn:hover  {
+    background-color: #f2f2f2;
+}
+
+@media (max-width:768px) {
+    #img_hide{
+        display: none;
+    }
+}
